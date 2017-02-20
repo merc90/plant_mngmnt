@@ -1,0 +1,147 @@
+.add-admin-content
+{
+	height:230px;
+}
+
+.forgot-password-content
+{
+	height:230px;
+}
+
+.add-funds-content
+{
+	height:230px;
+}
+
+.show-tentitive-fund-dialog{
+	width: 80% !important;
+}
+
+.show-tentitive-fund-content{
+	  height: 500px;
+}
+tbody td.fund-value {
+    text-decoration: underline;
+    cursor: pointer;
+}
+tbody tr td.fund-value[contenteditable="true"]:focus {
+  box-sizing: border-box;padding: 1px 0px;
+  padding: 1px;
+  background-color: white;
+  text-decoration: inherit;
+}
+.selectpicker{
+   border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 6px;
+    width: 240px;
+}
+#admin_user_list_table th, #user_list_table th
+{
+	border: 1px solid #f0f0f0;
+	font-size: 14px;
+}
+#admin_user_list_table td, #user_list_table td
+{
+	border: 1px solid #f0f0f0;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+#email_error
+{
+	color:red;
+	font-size: 14px;
+
+}
+
+#fp_pwd_success
+{
+	color:green;
+	font-size: 14px;
+}
+
+#admin_user_list_table_wrapper .dataTables_length
+{
+	font-size: 14px;
+}
+
+#admin_user_list_table_wrapper .dataTables_filter
+{
+	font-size: 14px;
+}
+
+#user_list_table_wrapper .dataTables_length
+{
+	font-size: 14px;
+}
+
+#user_list_table_wrapper .dataTables_filter
+{
+	font-size: 14px;
+}
+
+#user_list_table th
+{
+	border: 1px solid #f0f0f0;
+	font-size: 14px;
+}
+#user_list_table td
+{
+	border: 1px solid #f0f0f0;
+	font-size: 14px;
+}
+
+#user-complete-details
+{
+	width:100%
+}
+
+#user_investment_shares
+{
+	width:100%
+}
+
+#user-complete-details td
+{
+	border: 1px solid #bdbdbd;
+	padding: 5px;
+	width: 50%;
+}
+
+ #user_investment_shares td
+{
+	border: 1px solid #bdbdbd;
+	padding: 5px;
+	width: 50%;
+}
+
+#user-complete-details td.user-details-td-hd
+{
+	background: #e0e0e0;
+}
+
+.top-buffer { margin-top:20px; }
+.full-width {width:100%;}
+.padding {padding: 6px;}
+.form-outter-style{border: 1px solid #cccccc;padding: 10px;border-radius: 10px;}
+#modal-view-protfolio .width-eighty {width: 80%;}
+hr.checklist_group {border-top:2px solid #151313;}
+hr.checklist_subgroup {margin:0;}
+
+.edit-investment-funds-content .modal-body {height: 800px;}
+.edit-withdrawal-funds-content .modal-body {height: 800px;}
+
+.hideOverflow {
+	overflow: hidden;
+}
+#myTabContent {
+/*border: 1px solid lightgrey;*/
+border-radius: 5;
+background-color: white;
+position: relative;
+padding: 10px 10px;
+margin-bottom: 20px;
+outline: none;
+min-height: 20%;
+}

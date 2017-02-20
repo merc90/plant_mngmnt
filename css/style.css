@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('fonts/AvenirLTStd-Light.eot');
+  src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+     url('fonts/AvenirLTStd-Light.woff') format('woff'), 
+     url('fonts/AvenirLTStd-Light.ttf') format('truetype'), 
+     url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg'); 
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('fonts/OpenSans-Regular.eot');
+  src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+     url('fonts/OpenSans-Regular.woff') format('woff'), 
+     url('fonts/OpenSans-Regular.ttf') format('truetype'), 
+     url('fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg'); 
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('fonts/opensans-bold/OpenSans-Bold.eot');
+  src: url('fonts/opensans-bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/opensans-bold/OpenSans-Bold.woff') format('woff'), 
+     url('fonts/opensans-bold/OpenSans-Bold.ttf') format('truetype'), 
+     url('fonts/opensans-bold/OpenSans-Bold.svg#OpenSans-Bold') format('svg'); 
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-95-Black';
+  src: url('fonts/95/AvenirLTStd-95-Black.eot');
+  src: url('fonts/95/AvenirLTStd-95-Black.eot?#iefix') format('embedded-opentype'),
+     url('fonts/95/AvenirLTStd-95-Black.woff') format('woff'), 
+     url('fonts/95/AvenirLTStd-95-Black.ttf') format('truetype'), 
+     url('fonts/95/AvenirLTStd-95-Black.svg#AvenirLTStd-95-Black') format('svg'); 
+}
+
+@font-face {
+  font-family: 'AvenirLTStd-35-Light';
+  src: url('fonts/35/AvenirLTStd-35-Light.eot');
+  src: url('fonts/35/AvenirLTStd-35-Light.eot?#iefix') format('embedded-opentype'),
+     url('fonts/35/AvenirLTStd-35-Light.woff') format('woff'), 
+     url('fonts/35/AvenirLTStd-35-Light.ttf') format('truetype'), 
+     url('fonts/35/AvenirLTStd-35-Light.svg#AvenirLTStd-35-Light') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Rupee_Foradian';
+  src: url('fonts/rupee/Rupee_Foradian.eot');
+  src: url('fonts/rupee/Rupee_Foradian.eot?#iefix') format('embedded-opentype'),
+     url('fonts/rupee/Rupee_Foradian.woff') format('woff'), 
+     url('fonts/rupee/Rupee_Foradian.ttf') format('truetype'), 
+     url('fonts/rupee/Rupee_Foradian.svg#Rupee_Foradian') format('svg'); 
+}
+/*  bhoechie tab */
+body {
+  font-family: 'AvenirLTStd-Light';
+}
+.text-black {
+  color: #2e2e2e;
+}
+.text-maroon {
+  color: #009688
+}
+.blue {
+  color: #59aec3;
+}
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 50px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #5A55A3;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #5A55A3;
+  background-image: #5A55A3;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+hr {
+  border-top: 2px solid #eee;
+}
+a, a:hover {
+  text-decoration: none;
+}
+.form-default {
+  margin: 25px auto 10px auto;
+  padding: 15px 30px 10px 30px;
+  max-width: 60%;
+  background: #f2f2f2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+div.child {
+display: table-cell;
+vertical-align: middle;
+float: none;
+display: inline-block;
+}
+
+.btn-maroon {
+  background: #009688;
+  border:2px solid #009688;
+  color:#fff;
+}
+.btn-maroon:hover {
+   background-color: #004b44;
+   color: #fff;
+   }
+.btn-outline {
+  background-color: transparent;
+  transition: all .5s;
+}
+.btn-outline.btn-maroon {
+  color:#009688;
+}
+.btn-outline.btn-maroon:hover {
+  color:#fff;
+  background: #009688;
+  border:2px solid #009688;
+}
+#user_details_page .tab-content-pills {
+  min-height: 650px;
+}
+
+.error {
+  color: #f60101;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 2px;
+}
+legend {
+  margin: 10px 0px;
+}
+.tab-content {
+  padding-top: 10px;
+}
+.footer {
+  margin:0px;padding:0px;height:30px;background:#2e2e2e;width:100%;
+  padding: 5px 0px;
+  color: lightgrey;
+  position: relative;
+  bottom: 0px;
+  z-index: 10;
+}
+.navbar-default {
+  background-color: #009688;
+}
+.nav-stacked > li + li { {
+  margin: 0px;
+  border-radius: 0px;
+}
+@media screen and (max-width: 768px) { {
+
+}
+@media screen and (max-width: 768px) {
+.nav-pills > li.active > a:after {
+  background-image: none;
+}
+.nav-pills {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.sidebar .sidebar-nav.navbar-collapse {
+  background-color: #fff;
+}
+#page-wrapper{
+  margin-top: 100px;
+}
+}
